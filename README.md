@@ -24,16 +24,16 @@ Use the [Skills CLI](https://github.com/vercel-labs/skills) to install skills di
 
 ```bash
 # Install all skills
-npx skills add saaspegasus/django-skills
+npx skills add stableagent/django-skills
 
 # Install specific skills
-npx skills add saaspegasus/django-skills --skill skill-name
+npx skills add stableagent/django-skills --skill skill-name
 
 # List available skills
-npx skills add saaspegasus/django-skills --list
+npx skills add stableagent/django-skills --list
 
 # Install globally (available across all projects)
-npx skills add saaspegasus/django-skills --global
+npx skills add stableagent/django-skills --global
 ```
 
 This automatically installs to your `.claude/skills/` directory (or `~/.claude/skills/` for global installs).
@@ -44,7 +44,7 @@ Claude Code has a built-in [plugin marketplace](https://code.claude.com/docs/en/
 
 ```bash
 # Add the marketplace
-/plugin marketplace add saaspegasus/django-skills
+/plugin marketplace add stableagent/django-skills
 
 # Install all skills from the marketplace
 /plugin install django-skills
@@ -61,7 +61,7 @@ This integrates with Claude Code's plugin system and supports auto-updates.
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/saaspegasus/django-skills.git
+git clone https://github.com/stableagent/django-skills.git
 cp -r django-skills/skills/* .claude/skills/
 ```
 
@@ -70,7 +70,7 @@ cp -r django-skills/skills/* .claude/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/saaspegasus/django-skills.git .claude/django-skills
+git submodule add https://github.com/stableagent/django-skills.git .claude/django-skills
 ```
 
 Then reference skills from `.claude/django-skills/skills/`.
