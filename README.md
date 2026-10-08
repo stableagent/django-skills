@@ -2,7 +2,7 @@
 
 A collection of AI agent skills for Django projects. Built for developers who want Claude Code (or similar AI coding assistants) to help with Django development, common workflows, and best practices.
 
-These skills are designed to work in [SaaS Pegasus](https://www.saaspegasus.com/) projects, but should be generally useful for any Django project with similar underlying tech choices (e.g. uv, Vite).
+These skills are designed to work in [SaaS] projects, but should be generally useful for any Django project with similar underlying tech choices (e.g. uv, Vite).
 
 ## What are Skills?
 
